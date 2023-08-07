@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  return res.send("ABHISHEK YADAV COMPLETED DECLARATIVE CI/CD PIPELINE SUCCESSFULLY");
+  return res.send("ABHISHEK YADAV COMPLETED CI/CD PIPELINE SUCCESSFULLY");
 });
 
 app.listen(5000, () => {
